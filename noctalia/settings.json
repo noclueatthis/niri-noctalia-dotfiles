@@ -1,0 +1,230 @@
+{
+    "appLauncher": {
+        "autoPasteClipboard": false,
+        "clipboardWatchImageCommand": "wl-paste --type image --watch cliphist store",
+        "clipboardWatchTextCommand": "wl-paste --type text --watch cliphist store",
+        "clipboardWrapText": true,
+        "customLaunchPrefix": "",
+        "customLaunchPrefixEnabled": false,
+        "density": "default",
+        "enableClipPreview": true,
+        "enableClipboardChips": true,
+        "enableClipboardHistory": true,
+        "enableClipboardSmartIcons": true,
+        "enableSessionSearch": true,
+        "enableSettingsSearch": true,
+        "enableWindowsSearch": true,
+        "iconMode": "native",
+        "ignoreMouseInput": false,
+        "overviewLayer": false,
+        "pinnedApps": [
+            "steam",
+            "org.kde.dolphin",
+            "kitty",
+            "vesktop",
+            "firefox",
+            "spotify",
+            "org.vinegarhq.Sober"
+        ],
+        "position": "bottom_center",
+        "screenshotAnnotationTool": "",
+        "showCategories": false,
+        "showIconBackground": true,
+        "sortByMostUsed": true,
+        "terminalCommand": "kitty -e",
+        "viewMode": "list"
+    },
+    "audio": {
+        "mprisBlacklist": [],
+        "preferredPlayer": "",
+        "spectrumFrameRate": 30,
+        "spectrumMirrored": true,
+        "visualizerType": "linear",
+        "volumeFeedback": false,
+        "volumeFeedbackSoundFile": "",
+        "volumeOverdrive": true,
+        "volumeStep": 5
+    },
+    "bar": {
+        "autoHideDelay": 500,
+        "autoShowDelay": 150,
+        "backgroundOpacity": 0.4,
+        "barType": "floating",
+        "capsuleColorKey": "primary",
+        "capsuleOpacity": 0.09,
+        "contentPadding": 0,
+        "density": "default",
+        "displayMode": "always_visible",
+        "enableExclusionZoneInset": true,
+        "fontScale": 1.02,
+        "frameRadius": 12,
+        "frameThickness": 8,
+        "hideOnOverview": false,
+        "marginHorizontal": 12,
+        "marginVertical": 4,
+        "middleClickAction": "none",
+        "middleClickCommand": "",
+        "middleClickFollowMouse": false,
+        "monitors": [],
+        "mouseWheelAction": "none",
+        "mouseWheelWrap": true,
+        "outerCorners": false,
+        "position": "top",
+        "reverseScroll": false,
+        "rightClickAction": "settings",
+        "rightClickCommand": "",
+        "rightClickFollowMouse": true,
+        "screenOverrides": [],
+        "showCapsule": true,
+        "showOnWorkspaceSwitch": true,
+        "showOutline": true,
+        "useSeparateOpacity": true,
+        "widgetSpacing": 1,
+        "widgets": {
+            "center": [
+                {
+                    "characterCount": 2,
+                    "colorizeIcons": false,
+                    "emptyColor": "secondary",
+                    "enableScrollWheel": true,
+                    "focusedColor": "primary",
+                    "followFocusedScreen": false,
+                    "fontWeight": "bold",
+                    "groupedBorderOpacity": 1,
+                    "hideUnoccupied": false,
+                    "iconScale": 0.8,
+                    "id": "Workspace",
+                    "labelMode": "index",
+                    "occupiedColor": "primary",
+                    "pillSize": 0.6,
+                    "showApplications": false,
+                    "showApplicationsHover": false,
+                    "showBadge": true,
+                    "showLabelsOnlyWhenOccupied": true,
+                    "unfocusedIconsOpacity": 1
+                }
+            ],
+            "left": [
+                {
+                    "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
+                    "customIconPath": "",
+                    "enableColorization": false,
+                    "icon": "rocket",
+                    "iconColor": "none",
+                    "id": "Launcher",
+                    "useDistroLogo": false
+                },
+                {
+                    "clockColor": "none",
+                    "customFont": "JetBrains Mono",
+                    "formatHorizontal": "h:mm AP",
+                    "formatVertical": "h:mm AP",
+                    "id": "Clock",
+                    "tooltipFormat": "HH:mm ddd, MMM dd",
+                    "useCustomFont": true
+                },
+                {
+                    "compactMode": true,
+                    "diskPath": "/",
+                    "iconColor": "none",
+                    "id": "SystemMonitor",
+                    "showCpuCores": false,
+                    "showCpuFreq": false,
+                    "showCpuTemp": true,
+                    "showCpuUsage": true,
+                    "showDiskAvailable": false,
+                    "showDiskUsage": true,
+                    "showDiskUsageAsPercent": true,
+                    "showGpuTemp": false,
+                    "showLoadAverage": false,
+                    "showMemoryAsPercent": true,
+                    "showMemoryUsage": true,
+                    "showNetworkStats": false,
+                    "showSwapUsage": false,
+                    "textColor": "none",
+                    "useMonospaceFont": true,
+                    "usePadding": false
+                },
+                {
+                    "colorizeIcons": false,
+                    "hideMode": "hidden",
+                    "id": "ActiveWindow",
+                    "maxWidth": 145,
+                    "scrollingMode": "hover",
+                    "showIcon": true,
+                    "showText": false,
+                    "textColor": "none",
+                    "useFixedWidth": false
+                },
+                {
+                    "compactMode": false,
+                    "hideMode": "hidden",
+                    "hideWhenIdle": false,
+                    "id": "MediaMini",
+                    "maxWidth": 30,
+                    "panelShowAlbumArt": true,
+                    "scrollingMode": "hover",
+                    "showAlbumArt": true,
+                    "showArtistFirst": true,
+                    "showProgressRing": true,
+                    "showVisualizer": true,
+                    "textColor": "none",
+                    "useFixedWidth": false,
+                    "visualizerType": "mirrored"
+                },
+                {
+                    "colorName": "primary",
+                    "hideWhenIdle": false,
+                    "id": "AudioVisualizer",
+                    "width": 100
+                }
+            ],
+            "right": [
+                {
+                    "iconColor": "none",
+                    "id": "NoctaliaPerformance"
+                },
+                {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Bluetooth",
+                    "textColor": "none"
+                },
+                {
+                    "deviceNativePath": "__default__",
+                    "displayMode": "graphic-clean",
+                    "hideIfIdle": false,
+                    "hideIfNotDetected": true,
+                    "id": "Battery",
+                    "showNoctaliaPerformance": false,
+                    "showPowerProfiles": false
+                },
+                {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Volume",
+                    "middleClickCommand": "pwvucontrol || pavucontrol",
+                    "textColor": "none"
+                },
+                {
+                    "colorizeDistroLogo": false,
+                    "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
+                    "customIconPath": "",
+                    "enableColorization": true,
+                    "icon": "settings",
+                    "id": "ControlCenter",
+                    "useDistroLogo": true
+                },
+                {
+                    "iconColor": "error",
+                    "id": "SessionMenu"
+                }
+            ]
+        }
+    },
+    "brightness": {
+        "step": 5
+    }
+}
