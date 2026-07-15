@@ -1,3 +1,13 @@
+![My System Preview](preview1.png)
+![My System Preview](preview2.png)
+![My System Preview](preview3.png)
+![My System Preview](preview4.png)
+![My System Preview](preview5.png)
+![My System Preview](preview6.png)
+
+
+
+
 # Niri and Noctalia
 This setup features a dynamic, scrolling-window workspace using  the Niri compositor and styled with the Noctalia shell bar.
 
