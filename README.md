@@ -1,11 +1,10 @@
-scroll down for readme
+# SCROLL DOWN FOR README
 
-
-![My System Preview](preview1.png)
-![My System Preview](preview2.png)
-![My System Preview](preview3.png)
-![My System Preview](preview4.png)
-![My System Preview](preview5.png)
+![My System Preview](previews/preview1.png)
+![My System Preview](previews/preview2.png)
+![My System Preview](previews/preview3.png)
+![My System Preview](previews/preview4.png)
+![My System Preview](previews/preview5.png)
 
 
 
