@@ -12,7 +12,11 @@ Ensure you have these tools installed before applying the dotfiles:
 * `pwvucontrol` or `pavucontrol` (for the audio volume widget)
 * `cliphist` and `wl-clipboard` (for app launcher clipboard history)
 * `JetBrains Mono` (font used in the noctalia)
-
+* `Niri` (Main compositor)
+* `Noctalia` (Main shell)
+* `Kitty` (Terminal)
+* `Fastfetch` (System info)
+  
 ## Installation
 
 1. **Clone this repository:**
