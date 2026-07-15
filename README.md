@@ -34,8 +34,7 @@ Ensure you have these tools installed before applying the dotfiles:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com
-   cd  niri-noctalia-dotfiles
+   git clone https://github.com/noclueatthis/niri-noctalia-dotfiles && cd niri-noctalia-dotfiles
    ```
 
 2. **Backup your current configurations:**
