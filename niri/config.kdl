@@ -14,7 +14,7 @@ input {
         accel-speed -0.6
         accel-profile "flat"
     }
-
+}
 
 layout {
     gaps 12
